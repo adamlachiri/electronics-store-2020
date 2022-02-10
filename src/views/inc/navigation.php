@@ -6,7 +6,7 @@
         <!-- logo -->
         <div class="d-flex-center px-5">
             <a href="">
-                <img src="img/icons/logo.png" width=32 alt="">
+                <img src="img/icons/logo.png" alt="">
             </a>
         </div>
 

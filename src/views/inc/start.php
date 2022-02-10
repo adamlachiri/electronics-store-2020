@@ -73,7 +73,7 @@ require_once ROOT . "/src/views/inc/functions.php";
     <section class="js-loading-page ">
         <div>
             <div class="d-flex a-center j-center">
-                <img src="img/icons/logo.png" width=32 alt="">
+                <img src="img/icons/logo.png" alt="">
             </div>
             <div class="pt-3 text-center">
                 <h6>LOADING . . .</h6>
