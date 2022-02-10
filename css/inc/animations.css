@@ -1,0 +1,53 @@
+/* ////////////////////////////// keyframes //////////////////////////////////*/
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade_out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* /////////////////////////////////// classes /////////////////////////////// */
+
+.a-ease-out-fast {
+  transition: 0.5s ease-out !important;
+}
+
+.a-ease-out-slow {
+  transition: 5s ease-out !important;
+}
+
+.a-opacity {
+  transition: fadeIn 2s ease-out;
+}
+
+/*/////////////////////////////////////////////// transform & transition (ts) /////////////////////////////////////////*/
+
+.ts-left {
+  transform: translateX(100%) !important;
+}
+
+.ts-right {
+  transform: translateX(-100%) !important;
+}
+
+.ts-top {
+  transform: translateY(100%) !important;
+}
+
+.ts-bottom {
+  transform: translateY(-100%) !important;
+}

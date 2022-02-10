@@ -1,0 +1,76 @@
+font-awesome script: <script src="https://kit.fontawesome.com/a9984945c1.js" crossorigin="anonymous"></script>
+arrow down :  <i class="fas fa-caret-down"></i>
+arrow up:  <i class="fas fa-caret-up"></i>
+arrow right : <i class="fas fa-angle-right"></i>
+arrow left : <i class="fas fa-angle-left"></i>
+toggler :  <i class="fas fa-align-justify"></i>
+chevron down : <i class="fas fa-chevron-down"></i>
+chevron up : <i class="fas fa-chevron-up"></i>
+chevron left : <i class="fas fa-chevron-left"></i>
+chevron right : <i class="fas fa-chevron-right"></i>
+cart : <i class="fas fa-cart-plus"></i>
+star :  <i class="fas fa-star"></i> 
+star half empty :  <i class="fas fa-star-half-alt"></i> 
+star empty :  <i class="far fa-star"></i> 
+search: <i class="fas fa-search"></i>
+toggler off : <i class="fas fa-toggle-off"></i>
+toggler on : <i class="fas fa-toggle-on"></i>
+home: <i class="fas fa-home"></i>
+gears: <i class="fas fa-cogs"></i>
+empty heart: <i class="far fa-heart"></i>
+heart: <i class="fas fa-heart"></i>
+moon: <i class="fas fa-moon"></i>
+sun: <i class="fas fa-sun"></i>
+trash: <i class="fas fa-trash"></i>
+like: <i class="fas fa-thumbs-up"></i>
+dislike: <i class="fas fa-thumbs-down"></i>
+fat arrow up: <i class="fas fa-sort-up"></i>
+close: <i class="far fa-times-circle"></i>
+positive: <i class="fas fa-check-circle"></i>
+historic: <i class="fas fa-history"></i>
+plus: <i class="fas fa-plus"></i>
+exchange: <i class="fas fa-exchange-alt"></i>
+advertise: <i class="fas fa-ad"></i>
+contract: <i class="fas fa-file-signature"></i>
+tools: <i class="fas fa-tools"></i>
+close box: <i class="fas fa-window-close"></i>
+close :<i class="far fa-window-close"></i>
+camera: <i class="fas fa-camera"></i>
+modify: <i class="fas fa-pen"></i>
+
+
+//social media & contact
+
+instagram: <i class="fab fa-instagram-square"></i>
+facebook: <i class="fab fa-facebook-square"></i>
+linkdin: <i class="fab fa-linkedin"></i>
+twitter: <i class="fab fa-twitter-square"></i>
+whatsapp: <i class="fab fa-whatsapp-square"></i>
+phone: <i class="fas fa-phone"></i>
+
+//login
+
+user: <i class="fas fa-user"></i>
+lock: <i class="fas fa-lock"></i>
+email: <i class="fas fa-envelope"></i>
+exclamation: <i class="fas fa-exclamation-circle"></i>
+profile: <i class="fas fa-user-circle"></i>
+door: <i class="fas fa-door-open"></i>
+
+//register
+city: <i class="fas fa-city"></i>
+adress: <i class="fas fa-address-card"></i>
+
+//payment methods
+card: <i class="fas fa-money-check"></i>
+cash: <i class="fas fa-money-bill-wave"></i>
+mobile: <i class="fas fa-mobile-alt"></i>
+transport: <i class="fas fa-dolly-flatbed"></i>
+
+//faces
+sad: <i class="far fa-frown"></i>
+<i class="far fa-smile"></i>
+
+// Apache commands
+<IfModule mod_reqrite.c>
+</IfModule>

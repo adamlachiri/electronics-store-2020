@@ -1,0 +1,483 @@
+/*////////////////////////////////////////////////// imports //////////////////////////////////////////////////////*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+/*/////////////////////////////////////////////// variables ///////////////////////////*/
+
+:root {
+  --nav-height: 6rem;
+}
+
+/*///////////////////////////////////////////////// text (t) ///////////////////////////////////////////*/
+
+/* font family */
+
+.t-roboto {
+  font-family: "Roboto", sans-serif !important;
+}
+.t-montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+.t-monospace {
+  font-family: monospace, sans-serif !important;
+}
+.t-oswald {
+  font-family: "Oswald", sans-serif !important;
+}
+.t-baloo {
+  font-family: "Baloo Tammudu 2", cursive !important;
+}
+.t-lato {
+  font-family: "Lato", sans-serif !important;
+}
+.t-philosopher {
+  font-family: "Philosopher", sans-serif !important;
+}
+.t-raleway {
+  font-family: 'Raleway', sans-serif !important;
+}
+.t-crimson {
+  font-family: 'Crimson Text', serif !important;
+}
+
+/* font style */
+
+.t-italic {
+  font-style: italic !important;
+}
+
+.t-uppercase {
+  text-transform: uppercase !important;
+}
+
+.t-lowercase {
+  text-transform: lowercase !important;
+}
+
+.t-capitalize {
+  text-transform: capitalize !important;
+}
+
+.t-underline {
+  text-decoration: underline !important;
+}
+
+.t-through {
+  text-decoration: line-through !important;
+}
+
+.t-center {
+  text-align: center !important;
+}
+
+.t-start {
+  text-align: start !important;
+}
+
+.t-end {
+  text-align: end !important;
+}
+
+.t-bold {
+  font-weight: bold !important;
+}
+
+.t-shadow {
+  text-shadow: 0px 0px 1px black !important;
+}
+
+.t-nowrap {
+  white-space: nowrap !important;
+}
+
+/*//////////////////////////////////////////////// background (bg) //////////////////////////////////////////////*/
+
+.bg-img {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.bg-bottom {
+  background-position: bottom !important;
+}
+.bg-top {
+  background-position: top !important;
+}
+.bg-left {
+  background-position: left !important;
+}
+.bg-right {
+  background-position: right !important;
+}
+.bg-center {
+  background-position: center !important;
+}
+
+
+/*/////////////////////////////////////////////////// image ///////////////////////////////////////////////////*/
+
+.img-fluid {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+/*//////////////////////////////////////////// opacity ///////////////////////////////////////////////////////*/
+
+.o-hidden {
+  opacity: 0 !important;
+}
+.o-inactive {
+  opacity: 0.3 !important;
+}
+.o-active {
+  opacity: 1 !important;
+}
+
+/* //////////////////////////////////////// overflow //////////////////////////////////////////////////////////// */
+.ov-hidden {
+  overflow: hidden !important;
+}
+.ov-x-hidden {
+  overflow-x: hidden !important;
+}
+.ov-y-hidden {
+  overflow-y: hidden !important;
+}
+.ov-scroll {
+  overflow: scroll !important;
+}
+.ov-x-scroll {
+  overflow-x: scroll !important;
+}
+.ov-y-scroll {
+  overflow-y: scroll !important;
+}
+
+/*////////////////////////////////////////////////////// displays (d) /////////////////////////////////////////////*/
+
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-inline {
+  display: inline;
+}
+.d-flex {
+  display: flex ;
+}
+.d-flex-vertical {
+  display: flex ;
+  flex-direction: column;
+}
+.d-inline-flex {
+  display: inline-flex ;
+}
+.d-flex-center {
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+}
+
+/* /////////////////////////////////////////////////////// flex (f) //////////////////////////////////////////////////*/
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap !important;
+}
+
+.flex-1 {
+  flex: 1 !important;
+}
+.flex-2 {
+  flex: 2 !important;
+}
+.flex-3 {
+  flex: 3 !important;
+}
+.flex-4 {
+  flex: 4 !important;
+}
+.flex-5 {
+  flex: 5 !important;
+}
+.flex-6 {
+  flex: 6 !important;
+}
+.flex-7 {
+  flex: 7 !important;
+}
+.flex-8 {
+  flex: 8 !important;
+}
+.flex-9 {
+  flex: 9 !important;
+}
+.flex-10 {
+  flex: 10 !important;
+}
+.flex-11 {
+  flex: 11 !important;
+}
+.flex-12 {
+  flex: 12 !important;
+}
+
+/*/////////////////////////////////////////////////// justify (j) ///////////////////////////////////////////////*/
+
+.j-around {
+  justify-content: space-around !important;
+}
+
+.j-between {
+  justify-content: space-between !important;
+}
+
+.j-start {
+  justify-content: flex-start !important;
+}
+
+.j-end {
+  justify-content: flex-end !important;
+}
+
+.j-center {
+  justify-content: center !important;
+}
+.j-self-start {
+  justify-self: flex-start !important;
+}
+
+.j-self-end {
+  justify-self: end !important;
+}
+
+.j-self-center {
+  justify-self: center !important;
+}
+
+/*/////////////////////////////////////////////////// align (a) /////////////////////////////////////////////////*/
+
+.a-around {
+  align-items: space-around !important;
+}
+
+.a-between {
+  align-items: space-between !important;
+}
+
+.a-start {
+  align-items: flex-start !important;
+}
+
+.a-end {
+  align-items: flex-end !important;
+}
+
+.a-center {
+  align-items: center !important;
+}
+
+.a-self-start {
+  align-self: flex-start !important;
+}
+
+.a-self-end {
+  align-self: flex-end !important;
+}
+
+.a-self-center {
+  align-self: center !important;
+}
+.a-self-stretch {
+  align-self: stretch !important;
+}
+
+/*////////////////////////////////////////////// borders (b) ////////////////////////////////////////////////*/
+
+.b-none {
+  border: none !important;
+}
+
+/* radius */
+
+.b-radius-small {
+  border-radius: 3px !important;
+}
+.b-radius-medium {
+  border-radius: 25% !important;
+}
+.b-radius-circle {
+  border-radius: 50% !important;
+}
+
+/*////////////////////////////////////////////// positions (p) /////////////////////////////////////////////*/
+
+.p-relative {
+  position: relative !important;
+}
+.p-absolute {
+  position: absolute !important;
+}
+.p-absolute-full {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+.p-fixed {
+  position: fixed !important;
+}
+.p-sticky {
+  position: sticky !important;
+}
+
+.t-0 {
+  top: 0 !important;
+}
+.t-100 {
+  top: 100% !important;
+}
+.b-0 {
+  bottom: 0 !important;
+}
+.l-0 {
+  left: 0 !important;
+}
+.r-0 {
+  right: 0 !important;
+}
+
+/*/////////////////////////////////////////////// hover (h) ///////////////////////////////////////////////*/
+
+/* text colors */
+
+.h-text-orange:hover {
+  color: var(--orange) !important;
+}
+.h-text-red:hover {
+  color: var(--red) !important;
+}
+.h-text-blue:hover {
+  color: var(--blue) !important;
+}
+
+/* others */
+
+.h-pointer {
+  cursor: pointer !important;
+}
+.h-opacity {
+  opacity: 0.7 !important;
+}
+.h-opacity:hover {
+  opacity: 1 !important;
+}
+.h-scale:hover {
+  transform: scale(1.1) !important;
+}
+.h-active:hover {
+  opacity: 1 !important;
+}
+.h-hand:hover {
+  cursor: grab !important;
+}
+.h-underline:hover {
+  text-decoration: underline !important;
+}
+.h-border-white:hover {
+  border: white 1px solid !important;
+}
+.h-border-black:hover {
+  border: black 1px solid !important;
+}
+.h-text-white:hover {
+  color: var(--white) !important;
+}
+.h-text-black:hover {
+  color: var(--black) !important;
+}
+.h-blue:hover {
+  color: var(--blue) !important;
+}
+
+/* /////////////////////////////////////////// active //////////////////////////////// */
+
+.a-grab:active {
+cursor: grabbing !important;
+}
+
+
+/*//////////////////////////////////////////////// box (b) ////////////////////////////////////////////////////*/
+
+.b-shadow {
+  box-shadow: 0px 0px 5px black !important;
+}
+.b-shadow-orange {
+  box-shadow: 0px 0px 5px var(--orange) !important;
+}
+.bs-content {
+  box-sizing: content-box !important;
+}
+
+/*/////////////////////////////////////////////// z-index (z) ///////////////////////////////////////////////*/
+
+.z-1 {
+  z-index: 1 !important;
+}
+.z-2 {
+  z-index: 2 !important;
+}
+.z-3 {
+  z-index: 3 !important;
+}
+.z-4 {
+  z-index: 4 !important;
+}
+.z-5 {
+  z-index: 5 !important;
+}
+
+/* /////////////////////////////////////////////// placeholder /////////////////////////// */
+
+.t-placeholder-red::-webkit-input-placeholder {
+  color: red !important;
+}
+
+/* ////////////////////////////////////////////////////// line height ///////////////// */
+
+.l-height-0 {
+  line-height: 0;
+}
+
+/* ///////////////////////////////////////////////////// focus//////////////////// */
+
+.f-b-shadow:focus {
+  box-shadow: 0px 0px 5px black !important;
+}
+.f-b-shadow-orange:focus {
+  box-shadow: 0px 0px 5px var(--orange) !important;
+}
+.f-b-black:focus {
+  border: solid black 1px !important;
+}
+
+.f-bg-lightorange:focus {
+  background-color: var(--lightorange) !important;
+}
+

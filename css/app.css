@@ -1,0 +1,131 @@
+/*////////////////////////////////////////////////// imports ////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+@import "inc/defaults.css";
+
+
+
+@import "inc/colors.css";
+
+
+
+@import "inc/others.css";
+
+
+
+@import "inc/animations.css";
+
+
+
+@import "inc/dimensions.css";
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////// css //////////////////////////////////////////////////////// */
+
+main {
+  margin: auto;
+
+  min-height: calc(100vh - var(--nav-height));
+}
+
+.bg-games {
+  background-image: url("../img/bg/bg-games.png");
+
+  background-position: center;
+}
+
+.bg-phones {
+  background-position: center;
+
+  background-image: url("../img/bg/bg-phones.jpg");
+}
+
+.bg-computers {
+  background-position: center;
+
+  background-image: url("../img/bg/bg-computers.png");
+}
+
+.bg-hardwares {
+  background-position: center;
+
+  background-image: url("../img/bg/bg-hardwares.jpg");
+}
+
+.bg-monitors {
+  background-position: bottom;
+
+  background-image: url("../img/bg/bg-monitors.png");
+}
+
+.bg-others {
+  background-position: center;
+
+  background-image: url("../img/bg/bg-others.jpg");
+}
+
+.bg-delivery {
+  background-image: url("../img/bg/bg-delivery.png");
+}
+
+.bg-return {
+  background-image: url("../img/bg/bg-return.png");
+}
+
+.bg-payment {
+  background-image: url("../img/bg/bg-payment.png");
+}
+
+.bg-contract {
+  background-image: url("../img/bg/bg-contract.png");
+}
+
+.bg-404 {
+  background-image: url("../img/bg/bg-404.png");
+}
+
+.bg-cash {
+  background-image: url("../img/bg/bg-cash.jpg");
+}
+
+.bg-online-payment {
+  background-image: url("../img/bg/bg-online-payment.jpg");
+}
+
+.bg-credit-card {
+  background-image: url("../img/bg/bg-credit-card.jpg");
+}
+
+/* js */
+
+.js-loading-page {
+  position: fixed;
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  z-index: 999;
+
+  background-color: white;
+}

@@ -1,0 +1,252 @@
+:root {
+  --primary: black;
+  --secondary: rgb(218, 218, 218);
+}
+
+/* ////////////////////////////////// primary ////////////////////////////////// */
+.btn-primary {
+  background: var(--primary) !important;
+  color: white !important;
+  opacity: 0.7 !important
+}
+.btn-primary:hover {
+  opacity: 1 !important;
+}
+.bg-primary {
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+.h-bg-primary:hover {
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+
+
+/* ////////////////////////////////// secondary ////////////////////////////////// */
+.btn-secondary {
+  background: var(--secondary) !important;
+  color: black !important;
+  opacity: 0.7 !important
+}
+.btn-secondary:hover {
+  opacity: 1 !important;
+}
+.bg-secondary {
+  background-color: var(--secondary) !important;
+  color: black !important;
+}
+.h-bg-secondary:hover {
+  background-color: var(--secondary) !important;
+  color: black !important;
+}
+
+
+/*/////////////////////////////////// white ////////////////////////////////////*/
+.bg-white {
+  background-color: white !important;
+}
+.t-white {
+  color: white !important;
+}
+.h-t-white:hover {
+  color: white !important;
+}
+.b-white {
+  border: solid 1px white !important;
+}
+.b-white-thick {
+  border: solid 3px white !important;
+}
+.b-right-white {
+  border-right: solid 1px white !important;
+}
+.b-left-white {
+  border-left: solid 1px white !important;
+}
+.b-top-white {
+  border-top: solid 1px white !important;
+}
+.b-bottom-white {
+  border-bottom: solid 1px white !important;
+}
+
+
+/*/////////////////////////////////// lightgray //////////////////////////////////*/
+.bg-lightgray {
+  background-color: rgb(233, 233, 233) !important;
+}
+.h-bg-lightgray:hover {
+  background-color: rgb(233, 233, 233) !important;
+}
+
+/* ////////////////////////////////// gray /////////////////////////////////////// */
+.bg-gray {
+  background-color: rgb(200, 200, 200) !important;
+}
+.h-bg-gray:hover {
+  background-color: rgb(200, 200, 200) !important;
+}
+.t-gray {
+  color: rgb(112, 112, 112) !important;
+}
+.b-gray {
+  border: solid 1px gray !important;
+}
+
+.b-gray-thick {
+  border: solid 3px gray !important;
+}
+
+.b-right-gray {
+  border-right: solid 1px gray !important;
+}
+
+.b-left-gray {
+  border-left: solid 1px gray !important;
+}
+
+.b-top-gray {
+  border-top: solid 1px gray !important;
+}
+
+.b-bottom-gray {
+  border-bottom: solid 1px gray !important;
+}
+
+/*///////////////////////////////////// darkgray /////////////////////////////////*/
+.bg-darkgray {
+  background-color: rgb(170, 170, 170) !important;
+}
+.h-bg-darkgray:hover {
+  background-color: rgb(66, 66, 66) !important;
+}
+/* //////////////////////////////////// black //////////////////////////////////// */
+.bg-black {
+  background-color: black !important;
+}
+.a-bg-black:active {
+  background-color: black !important;
+}
+.t-black {
+  color: black !important;
+}
+.b-black {
+  border: solid 1px black !important;
+}
+
+.b-black-thick {
+  border: solid 3px black !important;
+}
+
+.b-right-black {
+  border-right: solid 1px black !important;
+}
+
+.b-left-black {
+  border-left: solid 1px black !important;
+}
+
+.b-top-black {
+  border-top: solid 1px black !important;
+}
+
+.b-bottom-black {
+  border-bottom: solid 1px black !important;
+}
+
+
+/* //////////////////////////////////// success ////////////////////////////////// */
+.bg-success {
+  background-color: rgb(0, 117, 0) !important;
+}
+.t-success {
+  color: green !important;
+}
+
+.b-success {
+  border: solid 1px green !important;
+}
+
+/* //////////////////////////////////// alert ///////////////////////////////////*/
+
+.bg-alert {
+  background-color: rgb(133, 4, 4) !important;
+}
+.t-alert {
+  color: red !important;
+}
+.btn-alert {
+  background: rgb(180, 21, 21) !important;
+  color: white !important;
+  opacity: 0.7 !important
+}
+.btn-alert:hover {
+  opacity: 1 !important;
+}
+.b-alert {
+  border: red solid 1px !important;
+}
+
+/* ////////////////////////////////////// warning //////////////////////////////// */
+.t-warning {
+  color: rgb(187, 122, 1) !important;
+}
+.h-t-warning:hover {
+  color: rgb(187, 122, 1) !important;
+}
+.b-warning {
+  border: solid 1px orange !important;
+}
+
+/* ////////////////////////////////////// link /////////////////////////////////// */
+.t-link {
+  color: rgb(43, 108, 151) !important;
+}
+.t-link:hover {
+  text-decoration: underline;
+}
+
+/* /////////////////////////////////////// transparent //////////////////////////// */
+.bg-semi-transparent {
+  background: rgba(0,0,0,0.5) !important;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
